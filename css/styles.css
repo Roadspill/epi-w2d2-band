@@ -1,17 +1,37 @@
-.sidebar {
+body {
   margin: auto;
-  margin: 10px 0;
-  margin-top: -70px;
-  float: right;
+  padding: 10px 30px;
+
+}
+
+h1 {
+  text-align: center;
+  padding-bottom: 10px;
+  font-size: 100px;
+}
+
+.aboutUs {
+  padding-bottom: 30px;
+  text-align: center;
+  font-size: 60px;
+}
+
+.rightColumn {
+  position: absolute;
+  top: 420px;
+  right: 10px;
   width: 20%;
   border: 3px solid black;
   border-radius: 5px;
   background-color: #E8EBF7;
   padding: 10px 0 10px -30px;
 
-
 }
 
+.leftColumn {
+  margin:right;
+  width: 70%;
+}
 .eventDates > li {
   padding-bottom: 15px
 }
@@ -35,4 +55,8 @@ li.tourLocation {
 
 .soldOut:after {
   content: "<br><span class="soldOutText">"Sold Out"</span>";
+}
+img.floatLeft{
+  float: left;
+  margin-right: 20px;
 }
