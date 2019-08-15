@@ -1,0 +1,38 @@
+.sidebar {
+  margin: auto;
+  margin: 10px 0;
+  margin-top: -70px;
+  float: right;
+  width: 20%;
+  border: 3px solid black;
+  border-radius: 5px;
+  background-color: #E8EBF7;
+  padding: 10px 0 10px -30px;
+
+
+}
+
+.eventDates > li {
+  padding-bottom: 15px
+}
+
+ul.eventDates {
+  list-style-type: none;
+}
+
+.tourDate {
+  text-decoration: underline;
+}
+li.tourLocation {
+
+}
+
+.soldOut {
+  text-decoration: line-through;
+  text-decoration-color: red;
+  text-emphasis: bold;
+}
+
+.soldOut:after {
+  content: "<br><span class="soldOutText">"Sold Out"</span>";
+}
